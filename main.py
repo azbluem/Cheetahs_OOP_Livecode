@@ -2,6 +2,22 @@ from dog import Dog
 from cat import Cat
 from corgi import Corgi
 from persian import Persian
+from human import Human
+
+#moana=Human("Moana",[])
+petey=Persian("Petey","sleepy")
+coral=Corgi("Coral",1,"Red", [petey], "Short")
+
+print(coral.human)
+#print(f"Coral has a pet named {coral.num_pets[0].name}.")
+
+'''
+for pet in moana.pets:
+    if isinstance(pet,Persian):
+        pet.brush()
+    else:
+        pet.about()
+
 
 alfosina = Persian("Alfosina", "grumpy")
 print(vars(alfosina))
@@ -31,7 +47,7 @@ cheddar.about()
 rufus = Corgi("Rufus", 4, "sable", "huge")
 rufus.about()
 
-'''
+
 
 cat1 = Cat("Inu", "happy")
 cat1.purr()
